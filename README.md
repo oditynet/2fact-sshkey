@@ -1,7 +1,8 @@
 This is a PAM module for 2fact auth of sshkey on USB
+
 Enter User\password and enter USB with private key.
 
-Your are generage a key with ssh-keygen. Private key copy to USB flash with ext4 FS, public key copy to /root or etc. (edit a code)
+Your are generate a key with ssh-keygen. Private key copy to USB flash with ext4 FS, public key copy to /root or etc. (edit a code)
 
 ```sed
 systemcctl start sshd (add :
